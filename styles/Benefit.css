@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+.benefit {
+  font-size: 20px;
+  margin: 160px 0 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.benefit-title {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  background: rgb(7, 249, 184);
+  background: linear-gradient(90deg, rgba(7, 249, 184, 0.40706705045299374) 0%, rgba(37, 255, 255, 1) 0%, rgba(0, 255, 191, 0.28661887118128504) 100%);
+  width: fit-content;
+}
+.benefit p {
+  margin: 5px 0 5px;
+  font-family: "Raleway", sans-serif;
+}
+.benefit-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 80px 0 0 0;
+}
+.benefit-r {
+  margin: 5px;
+  width: 350px;
+  height: 320px;
+  background: #05445e;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.home {
+  width: 100%;
+  background: white;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-video {
+  height: 80%;
+  width: 80%;
+  right: 10%;
+  object-fit: cover;
+  z-index: 2;
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+video {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.home .bg {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+}
+.home-video img {
+  position: absolute;
+  /* bottom: 30%;
+  left: 40%; */
+  z-index: 100;
+}
