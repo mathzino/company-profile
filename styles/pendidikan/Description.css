@@ -10,6 +10,7 @@
 .desc-text {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 60%;
   justify-content: center;
 }
@@ -29,4 +30,34 @@
   width: 30px;
   height: 750px;
   right: 0;
+}
+@media only screen and (max-width: 1120px) and (min-width: 10px) {
+  .desc-img img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    display: none;
+  }
+  .desc-ed {
+    display: flex;
+    flex-direction: column;
+    justify-contet: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+  .desc-text::after {
+    display: none;
+  }
+  .desc-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .desc-text .title {
+    font-size: 68px;
+    color: #494949;
+  }
 }

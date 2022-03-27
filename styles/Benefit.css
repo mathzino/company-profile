@@ -49,3 +49,12 @@
   width: 60px;
   margin: 20px;
 }
+@media only screen and (max-width: 650px) and (min-width: 10px) {
+  .benefit-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0 0 0;
+  }
+}

@@ -50,3 +50,24 @@
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 990px) and (min-width: 10px) {
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: white;
+    height: 1500px;
+
+    padding: 40px 0 80px;
+  }
+  .footer-bottom {
+    background: #053447;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0 20px;
+    color: white;
+  }
+}

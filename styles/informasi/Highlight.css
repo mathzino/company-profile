@@ -21,3 +21,12 @@
   font-weight: lighter;
   color: #a0a0a0;
 }
+@media only screen and (max-width: 1120px) and (min-width: 10px) {
+  .highlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+}

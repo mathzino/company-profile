@@ -59,3 +59,13 @@
 .about2-bottom p {
   margin: 20px;
 }
+@media only screen and (max-width: 800px) and (min-width: 10px) {
+  .about1 .title {
+    color: #05445e;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    height: 243px;
+    margin: 40px;
+  }
+}
