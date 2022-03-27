@@ -52,7 +52,7 @@ function MyApp({
         href: "/img/hero_logo.png"
       }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx("meta", {
         name: "viewport",
-        content: "viewport-fit=cover"
+        content: "width=device-width, initial-scale=1.0"
       })]
     }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx(Component, _objectSpread({}, pageProps))]
   });
