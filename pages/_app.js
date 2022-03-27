@@ -16,6 +16,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <title>Universitas Gajah Mada</title>
+        <link rel="icon" href="/img/hero_logo.png" />
         <meta name="viewport" content="viewport-fit=cover" />
       </Head>
       <Component {...pageProps} />

@@ -1,44 +1,47 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js",
-    "static/development/_middlewareManifest.js"
+    "static/b2ujhI95gP_8-OiGefIQH/_buildManifest.js",
+    "static/b2ujhI95gP_8-OiGefIQH/_ssgManifest.js",
+    "static/b2ujhI95gP_8-OiGefIQH/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-13441895b0b520bb.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-e267bb9839e5051c.js",
+      "static/chunks/61-0aea30a428f88c24.js",
+      "static/chunks/pages/index-0ca1a37c1f4deeab.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-13441895b0b520bb.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-e267bb9839e5051c.js",
+      "static/css/1e1d40c2c0a5817e.css",
+      "static/chunks/pages/_app-14667a8a522059cc.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-13441895b0b520bb.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-e267bb9839e5051c.js",
+      "static/chunks/pages/_error-8022dacb1937fc7a.js"
     ],
     "/informasi": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/informasi.js"
+      "static/chunks/webpack-13441895b0b520bb.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-e267bb9839e5051c.js",
+      "static/chunks/61-0aea30a428f88c24.js",
+      "static/chunks/pages/informasi-6ff7c01fe414340f.js"
     ],
     "/pendidikan": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/pendidikan.js"
+      "static/chunks/webpack-13441895b0b520bb.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-e267bb9839e5051c.js",
+      "static/chunks/pages/pendidikan-47797d2545a24cb7.js"
     ]
   },
   "ampFirstPages": []

@@ -1,6 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
-
 import Navbar from "../../components/organism/navbar";
 
 import Footer from "../../components/organism/footer";

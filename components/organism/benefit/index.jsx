@@ -3,10 +3,10 @@ export default function Benefit() {
     <>
       <div className="benefit">
         <div className="benefit-title">
-          <p>Benefit Yang Kamu Dapat</p>
+          <p>3 Unggulan UGM</p>
         </div>
-        <p>Banyak Sekali Benefit </p>
-        <p>Diantaranya ada 3 Benefit Super yang akan Kamu Dapatkan</p>
+        <p>Banyak Sekali Unggulan di UGM </p>
+        <p>3 Profil Keunggulan UGM </p>
       </div>
       <div className="benefit-detail">
         <div className="benefit-r">
