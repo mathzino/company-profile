@@ -1,0 +1,23 @@
+.highlight {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+.highlight img {
+  width: 600px;
+  height: 450px;
+  object-fit: cover;
+}
+.highlight .desc {
+  padding: 40px 10px 0 30px;
+}
+.highlight h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #494949;
+}
+.highlight .desc p {
+  font-size: 24px;
+  font-weight: lighter;
+  color: #a0a0a0;
+}

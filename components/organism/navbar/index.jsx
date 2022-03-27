@@ -1,20 +1,22 @@
 import React from "react";
-import Image from "next/image";
+
 import Link from "next/link";
 
 export default function Navbar() {
   return (
     <>
       <div className="navbar">
-        <div className="logo">{/* <Image src="/img/ugm.png" width={60} height={60}></Image> */}</div>
+        <div className="logo">
+          <img src="/img/ugm.png" width="50px" height="50px"></img>
+        </div>
         <div className="menu">
           <Link href="/">
             <a>Tentang UGM</a>
           </Link>
-          <Link href="/">
+          <Link href="/pendidikan">
             <a>Pendidikan</a>
           </Link>
-          <Link href="/">
+          <Link href="/informasi">
             <a>Informasi</a>
           </Link>
           <Link href="/">

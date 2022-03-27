@@ -10,19 +10,13 @@
   font-weight: bold;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   padding: 0 40px 0 40px;
   position: sticky;
   top: 0;
   z-index: 100;
   background: white;
-  /* From https://css.glass
-  background: rgba(255, 255, 255, 0.21);
-
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(6.7px);
-  -webkit-backdrop-filter: blur(6.7px);
-  border: 1px solid rgba(255, 255, 255, 0.21); */
   border-top: 5px rgb(7, 249, 184) solid;
   border-top: linear-gradient(90deg, rgba(7, 249, 184, 1) 0%, rgba(37, 255, 255, 1) 100%, rgba(0, 255, 191, 0.23059646221769958) 100%);
 }
@@ -48,10 +42,11 @@
   width: 120px;
   height: 10px;
   border-radius: 10px 10px 0 0;
-  background: black;
+  background: rgb(7, 249, 184);
+  background: linear-gradient(90deg, rgba(7, 249, 184, 1) 0%, rgba(37, 255, 255, 1) 100%, rgba(0, 255, 191, 0.23059646221769958) 100%);
   content: "";
   bottom: 0;
 }
 .navbar a:hover {
-  color: #189ab4;
+  /* color: #189ab4; */
 }

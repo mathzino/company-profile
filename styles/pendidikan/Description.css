@@ -1,0 +1,32 @@
+.desc-ed {
+  display: flex;
+  margin-bottom: 200px;
+}
+.desc-img img {
+  width: 400px;
+  height: 750px;
+  object-fit: cover;
+}
+.desc-text {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+}
+.desc-text p {
+  margin: 20px 0 50px 80px;
+  font-size: 22px;
+  color: #a0a0a0;
+}
+.desc-text .title {
+  font-size: 96px;
+  color: #494949;
+}
+.desc-text::after {
+  content: "";
+  background: #75e6da;
+  position: absolute;
+  width: 30px;
+  height: 750px;
+  right: 0;
+}

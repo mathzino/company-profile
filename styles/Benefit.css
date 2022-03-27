@@ -29,10 +29,23 @@
 }
 .benefit-r {
   margin: 5px;
+  padding: 10px;
   width: 350px;
   height: 320px;
   background: #05445e;
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+.benefit-r p {
+  margin: 10px 0;
+}
+.benefit-r img {
+  height: 60px;
+  width: 60px;
+  margin: 20px;
 }

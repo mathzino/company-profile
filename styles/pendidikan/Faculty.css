@@ -1,0 +1,66 @@
+.faculties {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+}
+.faculty h2 {
+  margin: 40px;
+  font-size: 48px;
+  display: flex;
+  flex-direction: column;
+}
+.faculty h2::after {
+  margin-top: 20px;
+  content: "";
+  height: 10px;
+  width: 20%;
+  background: #75e6da;
+}
+.faculty-c {
+  position: relative;
+  width: 240px;
+  height: 140px;
+  margin: 20px 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  /* border: 1px solid black; */
+}
+.faculty-c img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: 0.5s ease;
+  background: rgb(5, 160, 166);
+  background: linear-gradient(0deg, rgba(5, 160, 166, 0.7600082269235819) 0%, rgba(37, 255, 234, 0) 100%);
+  border-radius: 5px;
+}
+.faculty-c:hover .overlay {
+  transform: translateY(-15px);
+  opacity: 0;
+  transition: 1s;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
