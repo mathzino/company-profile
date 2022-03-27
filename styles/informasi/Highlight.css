@@ -30,3 +30,25 @@
     margin-bottom: 80px;
   }
 }
+@media only screen and (max-width: 500px) and (min-width: 10px) {
+  .highlight img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .highlight .desc {
+    width: 300px;
+    padding: 40px 10px 0 10px;
+  }
+  .highlight h3 {
+    font-size: 24px;
+  }
+  .highlight .desc p {
+    font-size: 16px;
+  }
+  .highlight {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+}

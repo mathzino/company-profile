@@ -38,3 +38,8 @@ video {
   left: 40%; */
   z-index: 100;
 }
+@media only screen and (max-width: 650px) and (min-width: 10px) {
+  .home .bg {
+    display: none;
+  }
+}

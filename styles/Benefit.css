@@ -57,4 +57,8 @@
     align-items: center;
     margin: 80px 0 0 0;
   }
+  .benefit-r {
+    width: 280px;
+    height: 300px;
+  }
 }

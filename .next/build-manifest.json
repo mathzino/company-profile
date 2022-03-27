@@ -5,40 +5,40 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/HMUAR2j7vEGcr_F02BNRH/_buildManifest.js",
-    "static/HMUAR2j7vEGcr_F02BNRH/_ssgManifest.js",
-    "static/HMUAR2j7vEGcr_F02BNRH/_middlewareManifest.js"
+    "static/3V7u1hlIDdoxp1pqkOgBw/_buildManifest.js",
+    "static/3V7u1hlIDdoxp1pqkOgBw/_ssgManifest.js",
+    "static/3V7u1hlIDdoxp1pqkOgBw/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/webpack-13441895b0b520bb.js",
+      "static/chunks/webpack-51c001b127a52ff6.js",
       "static/chunks/framework-5f4595e5518b5600.js",
       "static/chunks/main-e267bb9839e5051c.js",
       "static/chunks/61-0aea30a428f88c24.js",
       "static/chunks/pages/index-0ca1a37c1f4deeab.js"
     ],
     "/_app": [
-      "static/chunks/webpack-13441895b0b520bb.js",
+      "static/chunks/webpack-51c001b127a52ff6.js",
       "static/chunks/framework-5f4595e5518b5600.js",
       "static/chunks/main-e267bb9839e5051c.js",
-      "static/css/1e1d40c2c0a5817e.css",
+      "static/css/fb3a3a64b3f6c425.css",
       "static/chunks/pages/_app-5f077a7cbfd48621.js"
     ],
     "/_error": [
-      "static/chunks/webpack-13441895b0b520bb.js",
+      "static/chunks/webpack-51c001b127a52ff6.js",
       "static/chunks/framework-5f4595e5518b5600.js",
       "static/chunks/main-e267bb9839e5051c.js",
       "static/chunks/pages/_error-8022dacb1937fc7a.js"
     ],
     "/informasi": [
-      "static/chunks/webpack-13441895b0b520bb.js",
+      "static/chunks/webpack-51c001b127a52ff6.js",
       "static/chunks/framework-5f4595e5518b5600.js",
       "static/chunks/main-e267bb9839e5051c.js",
       "static/chunks/61-0aea30a428f88c24.js",
       "static/chunks/pages/informasi-6ff7c01fe414340f.js"
     ],
     "/pendidikan": [
-      "static/chunks/webpack-13441895b0b520bb.js",
+      "static/chunks/webpack-51c001b127a52ff6.js",
       "static/chunks/framework-5f4595e5518b5600.js",
       "static/chunks/main-e267bb9839e5051c.js",
       "static/chunks/pages/pendidikan-47797d2545a24cb7.js"
