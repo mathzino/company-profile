@@ -10,7 +10,7 @@
 .desc-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   width: 60%;
   justify-content: center;
 }
@@ -32,7 +32,7 @@
   right: 0;
 }
 @media only screen and (max-width: 1120px) and (min-width: 10px) {
-  desc-text p {
+  .desc-text p {
     margin: 20px 0 30px 0;
   }
   .desc-img img {
@@ -52,6 +52,7 @@
   .desc-text {
     display: flex;
     flex-direction: column;
+    width: 60%;
     align-items: center;
     justify-content: center;
     text-align: center;
