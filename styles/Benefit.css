@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 .benefit {
   font-size: 20px;
-  margin: 160px 0 80px;
+  margin: 80px 0 80px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@
 .benefit-detail {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 80px 0 0 0;
 }
 .benefit-r {

@@ -10,8 +10,8 @@
   text-align: center;
 }
 .about-ugm {
-  background: #75e6da;
-  color: white;
+  background: white;
+  color: #05445e;
   height: 468px;
   display: flex;
   flex-direction: column;
@@ -22,8 +22,11 @@
 .about1 p {
   margin: 30px 0;
 }
+.about1 {
+  background: #05445e;
+}
 .about1 .title {
-  color: #05445e;
+  color: white;
   font-size: 64px;
   font-weight: bold;
   text-align: left;
@@ -58,12 +61,9 @@
 }
 @media only screen and (max-width: 800px) and (min-width: 10px) {
   .about1 .title {
-    color: #05445e;
-    font-size: 36px;
     font-weight: bold;
     text-align: center;
-    height: 243px;
-    margin: 40px;
+    display: none;
   }
   .about {
     width: 100%;

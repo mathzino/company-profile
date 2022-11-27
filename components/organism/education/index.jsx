@@ -9,7 +9,7 @@ export default function Education() {
           <p>
             <span className="title">Pendidikan</span>
           </p>
-          <p>
+          <p className="">
             Universitas Gadjah Mada menyelenggarakan berbagai program pendidikan meliputi program sarjana, pascasarjana, profesi, spesialis, dan diploma. Beberapa fakultas juga menyelenggarakan program internasional baik pada program
             sarjana maupun pascasarjana.
           </p>

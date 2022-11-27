@@ -33,7 +33,7 @@
 }
 @media only screen and (max-width: 1120px) and (min-width: 10px) {
   .desc-text p {
-    margin: 20px 0 30px 0;
+    margin: 20px 0 10px 0;
   }
   .desc-img img {
     display: none;
@@ -41,10 +41,10 @@
   .desc-ed {
     display: flex;
     flex-direction: column;
-    justify-contet: center;
-    text-align: center;
+    /* justify-content: center; */
+    /* text-align: center; */
     align-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
   .desc-text::after {
     display: none;
@@ -52,10 +52,10 @@
   .desc-text {
     display: flex;
     flex-direction: column;
-    width: 60%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    width: 80%;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: start;
   }
   .desc-text .title {
     font-size: 40px;
