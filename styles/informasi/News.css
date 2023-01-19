@@ -2,22 +2,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 40px;
 }
 .news h1 {
   margin: 40px;
 }
 .news-wrap {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .news-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 280px;
-
-  padding: 20px;
+  width: 300px;
+  padding: 30px;
   margin: 30px 30px;
 }
 .news-card img {

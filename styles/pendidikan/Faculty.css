@@ -1,13 +1,19 @@
+.faculty {
+  padding: 0px 40px;
+}
 .faculties {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+
   /* border: 1px solid black; */
 }
 .faculty h2 {
   margin: 40px;
   font-size: 48px;
+  font-weight: 800;
+  color: #494949;
   display: flex;
   flex-direction: column;
 }
@@ -63,4 +69,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 1120px) and (min-width: 10px) {
+  .faculty h2 {
+    font-size: 40px;
+  }
+  .faculty {
+    padding: 0px 10px;
+  }
 }

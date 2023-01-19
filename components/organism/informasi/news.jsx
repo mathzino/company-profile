@@ -3,8 +3,8 @@ export default function News() {
     <>
       <div className="news">
         <h1>Berita Terbaru</h1>
-        <div className="news-wrap">
-          <div className="news-card">
+        <div className=" news-wrap">
+          <div className=" card news-card">
             <img src="/img/berita1.jpeg" alt="" />
             <a href="#">Beasiswa Sobat Bumi 2022</a>
             <p className="date">22 Maret 2002</p>
@@ -13,7 +13,7 @@ export default function News() {
               pengembangan ...
             </p>
           </div>
-          <div className="news-card">
+          <div className="card news-card">
             <img src="/img/berita2.png" alt="" />
             <a href="#">Beasiswa Karya Salemba Empat TA 2022/2023</a>
             <p className="date">18 MARET 2022</p>
@@ -22,7 +22,7 @@ export default function News() {
               scholarship (reguler scholarship, ...
             </p>
           </div>
-          <div className="news-card">
+          <div className=" card news-card">
             <img src="/img/berita3.jpeg" alt="" />
             <a href="#">Pembekalan Peer Counselor Mahasiswa Bidikmisi 2022</a>
             <p className="date">14 MARET 2022</p>

@@ -5,6 +5,12 @@
   margin: 200px 0 0;
   border-top: 1px solid rgb(212, 212, 212);
 }
+.footer p {
+  cursor: pointer;
+}
+.footer p:hover {
+  font-weight: 800;
+}
 .footer-s1 img {
   width: 120px;
 }

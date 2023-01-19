@@ -1,9 +1,11 @@
+import Image from "next/image";
+import pdd from "../../../public/img/pendidikan.png";
 export default function Education() {
   return (
     <>
       <div className="desc-ed">
         <div className="desc-img">
-          <img src="img/pendidikan.png" alt="" />
+          <Image src={pdd} alt="" layout="fill" />
         </div>
         <div className="desc-text">
           <p>

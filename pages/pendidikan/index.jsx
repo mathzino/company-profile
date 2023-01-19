@@ -7,7 +7,7 @@ export default function Pendidikan() {
   return (
     <>
       <Navbar />
-      <Education />
+      {/* <Education /> */}
       <div className="faculty">
         <h2>Fakultas dan Sekolah</h2>
         <div className="faculties">
